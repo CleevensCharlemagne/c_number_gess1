@@ -11,5 +11,12 @@
 
 void guess(int N)
 {
+	int number, guess, numberofguess = 0;
+
+	//Seed random number generator
+	srand(time(NULL));
+
+	// Generate a random number
+	number = rand() % N;
 
 }
