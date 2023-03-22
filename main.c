@@ -72,7 +72,10 @@ void guess(int N)
 // Driver Code
 int main()
 {
+	int N = 100;
 
+	// Function call
+	guess(N);
 
 	return 0;
 }
