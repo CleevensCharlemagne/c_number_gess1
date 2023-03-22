@@ -56,7 +56,9 @@ void guess(int N)
 			numberofguess++;
 		}
 
-
+		// Printing number of times
+		// user has taken to guess
+		// the number
 		else
 			printf("You guessed the"
 				" number in %d "
