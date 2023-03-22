@@ -46,6 +46,17 @@ void guess(int N)
 			numberofguess++;
 		}
 
+		// When user guesses higher
+		// than actual number
+		else if (number > guess)
+
+		{
+			printf("Higher number"
+				" please!\n");
+			numberofguess++;
+		}
+
+
 
 	} while (guess != number);
 }
