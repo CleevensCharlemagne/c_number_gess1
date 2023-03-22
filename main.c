@@ -33,6 +33,18 @@ void guess(int N)
 			break;
 		}
 
+		// Input by user
+		scanf("%d", &guess);
+
+		// When user guesses lower
+		// than actual number
+		if (guess > number)
+
+		{
+			printf("Lower number "
+				"please!\n");
+			numberofguess++;
+		}
 
 
 	} while (guess != number);
