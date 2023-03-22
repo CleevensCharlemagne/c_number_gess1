@@ -23,5 +23,8 @@ void guess(int N)
 		" 1 and %d\n",
 		N);
 
+	// Using a do-while loop that will
+	// work until user guesses
+	// the correct number
 
 }
