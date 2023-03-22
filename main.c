@@ -26,5 +26,8 @@ void guess(int N)
 	// Using a do-while loop that will
 	// work until user guesses
 	// the correct number
+	do {
 
+
+	} while (guess != number);
 }
