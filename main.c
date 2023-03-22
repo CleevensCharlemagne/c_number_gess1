@@ -19,4 +19,9 @@ void guess(int N)
 	// Generate a random number
 	number = rand() % N;
 
+	printf("Guess a number between"
+		" 1 and %d\n",
+		N);
+
+
 }
