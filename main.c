@@ -57,6 +57,11 @@ void guess(int N)
 		}
 
 
+		else
+			printf("You guessed the"
+				" number in %d "
+				"attempts!\n",
+				numberofguess);
 
 	} while (guess != number);
 }
