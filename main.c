@@ -67,3 +67,12 @@ void guess(int N)
 
 	} while (guess != number);
 }
+
+
+// Driver Code
+int main()
+{
+
+
+
+}
