@@ -28,6 +28,12 @@ void guess(int N)
 	// the correct number
 	do {
 
+		if (numberofguess > 9) {
+			printf("\nYou Loose!\n");
+			break;
+		}
+
+
 
 	} while (guess != number);
 }
