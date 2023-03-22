@@ -8,3 +8,8 @@
 // the range [1, N] and checks if the
 // generated number is the same as the
 // guessed number or not
+
+void guess(int N)
+{
+
+}
